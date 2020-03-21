@@ -1,0 +1,9 @@
+# action.yml
+name: 'NPM Test & Webhook'
+description: 'Run npm tests & post result to http endpoint'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'box'  
+  color: 'orange'
